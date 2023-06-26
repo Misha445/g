@@ -1,0 +1,18 @@
+{% extends 'flatpages/default.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>Наши контакты:</h3>
+{{ flatpage.content }}
+<br>
+{{ flatpage.content }}
+
+<p>Lorem <i> ipsum </i> dolor <b>sit</b> amet, consectetur adipisicing elit. Autem, magnam ipsum officiis illum porro magni, explicabo expedita tenetur eaque cupiditate blanditiis ducimus consequatur officia numquam nostrum nesciunt ipsam delectus. Repellendus.</p>
+<p style="font-size: xx-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo repudiandae maxime delectus dolor. Nobis eligendi assumenda harum totam neque? Quas, consequatur. Iure officiis eaque, aperiam et voluptates ab nesciunt!</p>
+
+{% endblock content %}
